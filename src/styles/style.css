@@ -1,0 +1,79 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+}
+.header__icon{
+    object-fit: contain;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header__center{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+.header__center > input{
+    border: none;
+    padding: 10px;
+    outline-width: 0;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/******** Banner *******/
+.banner{
+    background: url("https://revistatraveling.com/wp-content/uploads/2019/08/Airbnb-Plus-Listing-London-1-1024x683.jpg");
+    height: 50vh;
+    position: relative;
+    margin-top: 20px;
+}
+.banner__info{
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+.banner__searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: red !important;
+}
+.banner__info > button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.banner__info > h5{
+    margin-top: 5px;
+}
+.banner__info > button:hover{
+    background-color: white;
+    color: red;
+}
