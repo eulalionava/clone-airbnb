@@ -77,3 +77,81 @@
     background-color: white;
     color: red;
 }
+
+/**********  Home   **************/
+.home__section{
+    display: flex;
+    padding: 30px;
+}
+
+
+/*********** Search  **********************/
+
+.search{
+    position: absolute;
+    top: 35px;
+    left: 25%;
+    width: 100vh;
+}
+.search > h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 380px;
+}
+.search > input{
+    width: 539px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    height: 30px;
+    top: 420px;
+    border: none;
+}
+.search > input:focus{
+    outline-width: 0;
+}
+.search > button{
+    position: absolute;
+    left: 0;
+    top: 480px;
+    text-transform: inherit !important;
+    background-color: #ff7779;
+    color: white;
+    width: 570px;
+}
+.search > button:hover{
+    background-color: white;
+    color: #ff7779;
+}
+
+/************** Card *********/
+.card{
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.07);
+}
+.card > img{
+    object-fit: fill;
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+}
+.card__info{
+    margin-top: -9px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    border: 1;
+}
