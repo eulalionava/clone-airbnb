@@ -155,3 +155,107 @@
     padding-top: 20px;
     border: 1;
 }
+.card__info > h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.card__info > h4{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+/********* Footer ***************/
+.footer{
+    border: 1px solid  lightgray;
+    padding: 20px;
+    background-color: #f7f7f7;
+    bottom: 0;
+    text-align: center;
+
+}
+.footer > p{
+    padding: 5px;
+    font-size: 14px;
+}
+
+/******** Search Page **********/
+.searchPage__info{
+    padding: 20px;
+}
+.searchPage__info > p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.searchPage__info > h1{
+    margin-bottom: 30px;
+}
+.searchPage__info > button{
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+}
+
+/********** SearchResult ************/
+.searchResult{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+.searchResult:hover{
+    opacity: 0.8;
+}
+.searchResult > img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.searchResult__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.searchResult__heart{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.searchResult__infoTop {
+    width: 40vw;
+}
+.searchResult__info > h3{
+    font-weight: 300;
+    margin-top: 10px;
+}
+.searchResult__info > p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+.searchResult__infoBotton{
+    display: flex;
+    justify-content: space-between;
+}
+.searchResult__start{
+    color: red;
+}
+.searchResult__stars{
+    display: flex;
+    align-items: center;
+}
+.searchResult__price{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.searchResult__price > p{
+    text-align: right;
+}
